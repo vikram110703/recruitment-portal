@@ -1,0 +1,27 @@
+@import 'features.scss';
+
+*{
+    margin:0%;
+    padding:0px;
+    // color:$black1;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: $bgColor2;
+}
+
+
+
+
+
+
+
+@media screen and (width<=500px) {
+    html{
+        font-size: 50%;
+    }
+}
+@media screen and (width<=318px) {
+    // html{
+        // font-size: 40%;
+    // }
+}
